@@ -1,5 +1,5 @@
 # tic
-BIENVENIDOS A TIC2
+*Bienvenidos a TIC 2*
 
 
 Tecnología de la Información y de la Comunicación 
