@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 80%;
+    background-color: antiquewhite;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+h1{
+    text-align: center;
+    margin-top: 50px;
+}
+
+nav a{
+    text-decoration: none;
+    color: white;
+    padding: 0.5em 0.5em;
+    text-align: center;
+}
+
+.mflotante a{
+    background-color: goldenrod;
+    float: left;
+    width: 25%;
+    color: white;
+}
+
+.mflex{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.mflex a{
+    background-color: blue;
+    flex: auto;
+}
+
+.mgrid{
+    display: grid;
+    grid-auto-flow: column;
+}
+
+.mgrid a{
+    background-color: darkviolet;
+}
+
+@media (max-width: 600px){
+    .mflotante a{
+        width: 100%;
+        text-align: center;
+    }
+    .mflex{
+        flex-direction: column;
+        text-align: center;
+    }
+    .mgrid{
+        grid-auto-flow: row;
+    }
+}

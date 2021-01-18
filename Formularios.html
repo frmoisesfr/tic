@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es-ES">
+<head>
+    <meta charset="UTF-8">
+    <title>Formularios</title>
+    <link rel="stylesheet" href="Formularios.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <div class="contacto">
+        <h1>Contacto</h1>
+        <div class="linea"></div>
+        <form action="contact.php" method="post" class="formulario">
+            <input type="text" placeholder="Tu Nombre" name="nombre">
+            <input type="email" placeholder="Correo electrónico" name="email">
+            <input type="tel" placeholder="Teléfono" name="telefono">
+            <textarea placeholder="Tu mensaje" rows="3" name="mensaje"></textarea>
+            <input type="submit" value="Enviar">
+        </form>
+    </div>
+    <!--
+    <form action="" method="post">
+        Descripción: <br><textarea name="area" id="area" cols="30" rows="10" placeholder="Describe aquí tu problema" required autofocus></textarea><br>
+        Página web: <input type="url" name="web" id=""><br>
+        Email: <input type="email" name="email" id=""><br>
+        Fecha: <input type="date" name="fecha" id=""><br>
+        Edad: <input type="number" name="edad" id="" min="1" max="200"><br>
+        Puntos: <input type="range" name="puntos" id="" min="1" max="10"><br>
+        Color: <input type="color" name="color" id=""><br>
+        <input type="text" list="paises" name="paises">
+        <datalist id="paises">
+            <option value="España"></option>
+            <option value="Francia"></option>
+            <option value="Italia"></option>
+            <option value="Portugal"></option>
+            <option value="Argentina"></option>
+        </datalist><br>
+        <input type="image" src="./submit.jpg" width="20%" alt=""><br>
+        <input type="submit" value="Enviar datos">
+    </form>
+    -->
+</body>
+</html>

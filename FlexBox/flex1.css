@@ -1,0 +1,73 @@
+/*
+    FLEXBOX CSS
+    Noviembre de 2020
+*/
+html{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgba(255, 127, 80, 0.82);
+}
+
+h1,h2,h3,h4{
+    text-align: center;
+}
+
+main{
+    max-width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+@media(min-width:600px){
+    .nosotros{
+        flex: 0 0 70%;
+    }
+    .panel{
+        flex: 0 0 30%;
+    }
+}
+.servicio{
+    background-color: white;
+    text-align: center;
+    padding: 20px 0px 20px 0px;
+    transition: all 1s ease;
+}
+
+.servicio:hover{
+    transform: rotate(6deg);
+    border-bottom: 2px solid black;
+}
+
+@media(min-width:600px){
+    .servicios{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .servicio {
+        flex: 1;
+    }
+    .doble{
+        background-color: aqua;
+        flex: 2;
+    }
+}
+
+h1{
+    animation: 3s f infinite;
+}
+
+@keyframes f{
+    0%{
+        transform: rotate(0);
+    }
+    50%{
+        transform: rotate(10deg);
+    }
+    100%{
+        transform: rotate(0);
+    }
+}

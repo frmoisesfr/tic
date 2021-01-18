@@ -1,0 +1,61 @@
+/*
+    Flex hoja de Estilo
+*/
+html{
+    background-color: antiquewhite;
+}
+
+nav{
+    display: grid;
+    grid-auto-flow: column;
+}
+
+nav a{
+    background-color: brown;
+    color: white;
+    text-decoration: none;
+    padding-top: 20px;
+    text-align: center;
+    height: 40px;
+}
+
+nav a:hover{
+    background-color: rgb(236, 179, 72);
+}
+
+@media (max-width:600px){
+    nav{
+        grid-auto-flow: row;
+    }
+}
+
+/*
+nav{
+    display: grid;
+    grid-auto-flow: row;
+    text-align: center;
+}
+
+@media (min-width:700px) {
+    nav{
+        grid-auto-flow: column;
+    }
+}
+
+nav a{
+    text-decoration: none;
+    color:white;
+    background-color: brown;
+    height: 40px;
+    padding-top: 20px;
+}
+
+nav a:hover{
+    background-color: rgb(231, 158, 116);
+}
+*/
+
+
+
+
+

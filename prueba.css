@@ -1,0 +1,14 @@
+
+.contenido{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+}
+
+.hijo{
+    width: 49%;
+    height: 130px;
+    background: gray;
+    margin: 10px;
+}

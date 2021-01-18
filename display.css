@@ -1,0 +1,51 @@
+/*
+    DISPLAYS CSS
+*/
+
+*{
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin: auto;
+}
+
+img{
+    max-width: 100%;
+}
+
+header{
+    padding: 1rem 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav{
+    background-color: goldenrod;
+    display: flex;
+    justify-content: space-around;
+    padding: 0.5rem 0;
+    flex-direction: row;
+}
+
+nav a{
+    text-decoration: none;
+    color: white;
+}
+
+@media (max-width: 600px){
+    nav{
+        flex-direction: column;
+        text-align: center;
+    }
+    nav a{
+        padding: 0.3em 0;
+    }
+}
+
+
+

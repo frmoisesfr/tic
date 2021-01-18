@@ -1,0 +1,39 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Press Start 2P', cursive;
+}
+
+.contacto{
+    background-color: black;
+    border: solid 5px black;
+    width: 75%;
+    margin: auto;
+    padding: 15px;
+}
+
+.contacto h1{
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+.linea{
+    background: white;
+    height: 5px;
+    width: 30%;
+    margin: auto;
+    margin-bottom: 10px;
+}
+
+.formulario{
+    display: flex;
+    flex-direction: column;
+}
+
+.formulario > *{
+    margin: 10px 0px 0px 0px;
+    padding: 15px;
+    border-radius: 10px;
+}

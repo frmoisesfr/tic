@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html{
+     background-color: darkslateblue;
+}
+
+footer{
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+h1,h3{
+    background-color: white;
+    padding: 20px;
+    border: 3px dotted #a6a6bf;
+    border-radius: 50px;
+    text-align: center;
+}
+
+h4{
+    color: white;
+    padding: 20px;
+    text-align: center;
+    text-decoration: underline;
+    text-transform: uppercase;
+}
+
+main>img{
+    display: block;
+    width: 60%;
+    margin: auto;
+    border: 3px solid white;
+    transition: all 1s ease;
+}
+
+main>img:hover{
+    transform: rotate(-3deg) scale(1.2);
+    border: 5px solid black;
+}
+
+.texto{
+    color: white;
+    margin: auto;
+    width: 70%;
+}
+
+ol{
+    padding-top: 10px;
+    padding-bottom: 15px;
+}
+

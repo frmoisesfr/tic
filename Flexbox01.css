@@ -1,0 +1,23 @@
+/*
+    FlexBox 01
+    Autor: Moisés Fernández
+*/
+
+.contenedor{
+    display: flex;
+    flex-flow: row wrap;
+    border: 3px solid;
+}
+
+.item{
+    background-color: blue;
+    padding: 20px;
+}
+
+.item:nth-child(2){
+    background-color: darkred;
+}
+
+.item:nth-child(3){
+    background-color: yellowgreen;
+}
